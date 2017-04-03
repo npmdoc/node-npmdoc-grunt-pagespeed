@@ -1,17 +1,40 @@
 {
-    "buildNpmdoc":"grunt-pagespeed",
+    "author": "kai zhu <kaizhu256@gmail.com>",
+    "buildNpmdoc": "grunt-pagespeed",
+    "description": "api documentation for [grunt-pagespeed (v2.0.1)](https://github.com/jrcryer/grunt-pagespeed) [![npm package](https://img.shields.io/npm/v/npmdoc-grunt-pagespeed.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-grunt-pagespeed) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-grunt-pagespeed.svg)](https://travis-ci.org/npmdoc/node-npmdoc-grunt-pagespeed)",
     "devDependencies": {
-        "grunt-pagespeed": "*",
         "electron-lite": "kaizhu256/node-electron-lite#alpha",
+        "grunt-pagespeed": "*",
         "utility2": "kaizhu256/node-utility2#alpha"
     },
-    "name":"npmdoc-grunt-pagespeed",
+    "engines": {
+        "node": ">=4.0"
+    },
+    "homepage": "https://github.com/npmdoc/node-npmdoc-grunt-pagespeed",
+    "keywords": [
+        "documentation",
+        "grunt-pagespeed"
+    ],
+    "license": "MIT",
+    "main": "lib.npmdoc_grunt_pagespeed.js",
+    "name": "npmdoc-grunt-pagespeed",
+    "nameAlias": "npmdoc_grunt_pagespeed",
+    "nameOriginal": "npmdoc-grunt-pagespeed",
+    "os": [
+        "darwin",
+        "linux"
+    ],
     "repository": {
         "type": "git",
         "url": "https://github.com/npmdoc/node-npmdoc-grunt-pagespeed.git"
     },
     "scripts": {
-        "build-ci": "utility2 shReadmeTest build_ci.sh"
+        "build-ci": "utility2 shReadmeTest build_ci.sh",
+        "env": "env",
+        "heroku-postbuild": "(set -e; npm install \"kaizhu256/node-utility2#alpha\"; utility2 shDeployHeroku)",
+        "postinstall": "if [ -f npm_scripts.sh ]; then ./npm_scripts.sh postinstall; fi",
+        "start": "(set -e; export PORT=${PORT:-8080}; utility2 start test.js)",
+        "test": "(set -e; export PORT=$(utility2 shServerPortRandom); utility2 test test.js)"
     },
     "version": "0.0.1"
 }
