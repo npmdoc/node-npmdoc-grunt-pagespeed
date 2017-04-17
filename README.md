@@ -1,9 +1,11 @@
 # api documentation for  [grunt-pagespeed (v2.0.1)](https://github.com/jrcryer/grunt-pagespeed)  [![npm package](https://img.shields.io/npm/v/npmdoc-grunt-pagespeed.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-grunt-pagespeed) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-grunt-pagespeed.svg)](https://travis-ci.org/npmdoc/node-npmdoc-grunt-pagespeed)
 #### Grunt plugin for running Google PageSpeed Insights.
 
-[![NPM](https://nodei.co/npm/grunt-pagespeed.png?downloads=true)](https://www.npmjs.com/package/grunt-pagespeed)
+[![NPM](https://nodei.co/npm/grunt-pagespeed.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/grunt-pagespeed)
 
-[![apidoc](https://npmdoc.github.io/node-npmdoc-grunt-pagespeed/build/screenCapture.buildNpmdoc.browser._2Fhome_2Ftravis_2Fbuild_2Fnpmdoc_2Fnode-npmdoc-grunt-pagespeed_2Ftmp_2Fbuild_2Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-grunt-pagespeed/build/apidoc.html)
+- [https://npmdoc.github.io/node-npmdoc-grunt-pagespeed/build/apidoc.html](https://npmdoc.github.io/node-npmdoc-grunt-pagespeed/build/apidoc.html)
+
+[![apidoc](https://npmdoc.github.io/node-npmdoc-grunt-pagespeed/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-grunt-pagespeed/build/apidoc.html)
 
 ![npmPackageListing](https://npmdoc.github.io/node-npmdoc-grunt-pagespeed/build/screenCapture.npmPackageListing.svg)
 
@@ -18,7 +20,6 @@
 {
     "author": {
         "name": "James Cryer",
-        "email": "chat@jamescryer.com",
         "url": "http://www.jamescryer.com/"
     },
     "bugs": {
@@ -53,13 +54,11 @@
     "main": "Gruntfile.coffee",
     "maintainers": [
         {
-            "name": "jrcryer",
-            "email": "chat@jamescryer.com"
+            "name": "jrcryer"
         }
     ],
     "name": "grunt-pagespeed",
     "optionalDependencies": {},
-    "readme": "ERROR: No README data found!",
     "repository": {
         "type": "git",
         "url": "git://github.com/jrcryer/grunt-pagespeed.git"
@@ -68,16 +67,6 @@
     "version": "2.0.1"
 }
 ```
-
-
-
-# <a name="apidoc.tableOfContents"></a>[table of contents](#apidoc.tableOfContents)
-
-#### [module grunt-pagespeed](#apidoc.module.grunt-pagespeed)
-
-
-
-# <a name="apidoc.module.grunt-pagespeed"></a>[module grunt-pagespeed](#apidoc.module.grunt-pagespeed)
 
 
 
