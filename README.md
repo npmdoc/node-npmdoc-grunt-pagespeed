@@ -1,4 +1,7 @@
-# api documentation for  [grunt-pagespeed (v2.0.1)](https://github.com/jrcryer/grunt-pagespeed)  [![npm package](https://img.shields.io/npm/v/npmdoc-grunt-pagespeed.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-grunt-pagespeed) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-grunt-pagespeed.svg)](https://travis-ci.org/npmdoc/node-npmdoc-grunt-pagespeed)
+# npmdoc-grunt-pagespeed
+
+#### basic api documentation for  [grunt-pagespeed (v2.0.1)](https://github.com/jrcryer/grunt-pagespeed)  [![npm package](https://img.shields.io/npm/v/npmdoc-grunt-pagespeed.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-grunt-pagespeed) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-grunt-pagespeed.svg)](https://travis-ci.org/npmdoc/node-npmdoc-grunt-pagespeed)
+
 #### Grunt plugin for running Google PageSpeed Insights.
 
 [![NPM](https://nodei.co/npm/grunt-pagespeed.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/grunt-pagespeed)
@@ -64,7 +67,8 @@
         "url": "git://github.com/jrcryer/grunt-pagespeed.git"
     },
     "scripts": {},
-    "version": "2.0.1"
+    "version": "2.0.1",
+    "bin": {}
 }
 ```
 
